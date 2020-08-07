@@ -1,0 +1,60 @@
+* {
+     margin: 0;
+     padding: 0;
+   }
+   
+   body {
+     font-size: 120%;
+     background-color: #ffffff;
+   }
+   
+   .header {
+     width: 30%;
+     margin: 50px auto 0;
+     color: white;
+     background-color: #5f9ea0;
+     text-align: center;
+     border: 1px solid #b0c4de;
+     border-bottom: none;
+     border-radius: 10px 10px 0px 0px;
+     padding: 20px;
+   }
+  
+   .content {
+     width: 60vw;
+     margin: 5vw auto;
+     padding: 20px;
+     border: 1px solid #b0c4de;
+     background: white;
+     border-radius: 0px 0px 10px 10px;
+     text-align: center;
+   }
+   form {
+     width: 95%;
+     margin: 0 auto;
+     text-align: center;
+   }
+  
+   table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: solid 1px;
+    padding: 5px;
+    width: 50px;
+}
+.btn{
+  margin-top: 2%;
+  width: 4vw;
+  height: 2vw;
+  background-color: rgb(77, 87, 87);
+  border-radius: 8px;
+  border: 0;
+  color: #ffffff;
+}
+
+.btn:hover{
+  opacity: 0.5;
+}
